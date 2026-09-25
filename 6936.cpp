@@ -1,23 +1,17 @@
 #include <iostream>
-
 using namespace std;
-
 int main() {
-    // Optimización para lectura rápida de datos
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
-    int N, M, A;
-    if (cin >> N >> M >> A) {
-        // Si los tres números son idénticos
-        if (N == M && M == A) {
-            cout << "ELLA TE AMA\n";
-        } 
-        // Si hay alguna diferencia entre ellos
-        else {
-            cout << "ELLA NO TE AMA\n";
-        }
-    }
-
-    return 0;
+ios_base::sync_with_stdio(false);
+cin.tie(NULL);
+int n, m, a;
+if (cin >> n >> m >> a) {
+if (n == m && m == a) {
+cout << "ella te ama\n";
+} 
+else {
+cout << "ella no te ama\n";
 }
+}
+return 0;
+}
+
